@@ -1,0 +1,139 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.Card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Card1 {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    border: 2px solid red;
+}
+
+.Card1 p {
+    font-size: 18px;
+    font-family: 'Montserrat';
+    line-height: 196.19%;
+
+}
+
+.Navlink {
+    margin-left: 34px;
+}
+.Card1 img{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    right: 50%;
+    left: 50%;
+    height: 100px;
+}
+.Navlink a {
+    color: #241400;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 15px;
+    font-family: 'Montserrat';
+
+}
+
+.chegirma {
+    color: #D70000;
+    text-decoration-line: line-through;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    line-height: 196.19%;
+
+}
+
+.Card1 h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 196.19%;
+    margin: 0;
+}
+
+.Card1 h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    font-size: 14px;
+    line-height: 196.19%;
+}
+
+.Card1 button {
+    width: 103.18px;
+    height: 29px;
+    font-family: 'Montserrat';
+    font-weight: 900;
+
+    background: #E16A00;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    box-shadow: 0px 3px 8px rgba(225, 106, 0, 0.19);
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    margin-right: 6px;
+}
+ h1{
+    text-align: center;
+    margin: 75px 0;
+}
+.Card{
+    border: 2px solid red;
+}
+@media(min-width:0) and (max-width:750.9px) {
+  .Navbar  h1{
+       width: 100%;
+       margin: 1rem 0;
+       font-size: 23px;
+       color: #241400;
+    }
+    .h1{
+        width: 100%;
+        margin: 1.6rem 0;
+        font-size: 23px;
+        color: #241400; 
+    }
+    .Navbar{
+        margin-top: 45px;
+    }
+    .Navlink {
+        margin-left: 0;
+        overflow: auto;
+    }
+    
+    .Navlink a {
+        font-size: 11px;
+    
+    }
+    .Card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        overflow: auto;
+    }
+    
+    .Card1 {
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+        background-color: white;
+        padding: 20px;
+        width: 100%;
+    }
+}

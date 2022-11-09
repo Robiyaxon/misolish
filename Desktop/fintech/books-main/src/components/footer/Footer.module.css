@@ -1,0 +1,96 @@
+.Footer {
+    margin-top: 83px;
+    padding: 40px 164px 0 164px;
+    background: #391F00;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Block a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 196.19%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    line-height: 196.19%;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.responsive {
+    display: none;
+}
+.Block{
+    text-align: center;
+}
+.Block button {
+    width: 140px;
+    height: 43px;
+    margin-top: 1rem;
+    border: 1px solid #E16A00;
+    background-color: transparent;
+    color: white;
+}
+
+@media(min-width:0) and (max-width:750.9px) {
+    .Footer {
+        margin-top: 83px;
+        padding: 20px 15px;
+        background: #391F00;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .Img {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .Block {
+        display: none;
+    }
+
+    .responsive {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .responsive a {
+        color: white;
+    }
+}
+
+@media(min-width:751px) and (max-width:1200.9px) {
+    .Footer {
+        margin-top: 83px;
+        padding: 20px 30px;
+        background: #391F00;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .Img {
+        width: 100%;
+        text-align: center;
+        margin: 0.5rem 0;
+    }
+}

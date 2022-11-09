@@ -1,0 +1,23 @@
+.Dastafka {
+    margin-top:72px ;
+}
+
+.Dastafka h2 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 196.19%;
+    color: #241400;
+}
+
+.Dastafka p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 196.19%;
+    text-align: center;
+    color: #241400;
+}

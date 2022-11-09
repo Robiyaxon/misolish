@@ -1,0 +1,133 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Header a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 196.19%;
+    color: #241400;
+    text-decoration: none;
+}
+
+.Header input {
+    width: 200px;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(105, 103, 100, 0.59);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    outline: none;
+    background-image: url("../../accets/lupa.svg");
+    background-repeat: no-repeat;
+    padding-left: 1.3rem;
+}
+
+.Header input::placeholder {
+    color: rgba(0, 0, 0, 0.35);
+    font-size: 16px;
+
+}
+
+.section {
+    display: flex;
+    align-items: center;
+}
+
+.section img {
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+.section select {
+    border: none;
+    outline: none;
+    font-family: 'Roboto';
+    margin-left: 6px;
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.href a {
+    margin: 0 10px;
+}
+
+.drowimgr {
+    display: none;
+}
+
+@media(min-width:0) and (max-width:550.9px) {
+    .section {
+        margin-top: 15px;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media(min-width:0) and (max-width:1150.9px) {
+    .href {
+        display: none;
+    }
+    .section {
+      display: none;
+    }
+ .Header input {
+        display: none;
+
+    }
+    .Drow_Menu input {
+        width: 90%;
+        font-size: 16px;
+        border-bottom: 1px solid rgba(105, 103, 100, 0.59);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: transparent;
+        outline: none;
+        background-image: url("../../accets/lupa.svg");
+        background-repeat: no-repeat;
+        margin: 1rem 1rem;
+        color: white;
+    }
+
+    .Drow_Menu input::placeholder {
+        color: white;
+        font-size: 16px;
+
+    }
+
+    .Drow_Menu {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .Drow_Menu a {
+        width: 100%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 196.19%;
+        margin: 0.5rem 1rem;
+        color: white;
+    }
+
+    .drowimgr {
+        display: inherit;
+        cursor: pointer;
+    }
+
+  
+
+    .Header {
+        flex-wrap: wrap;
+    }
+}

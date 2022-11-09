@@ -1,0 +1,21 @@
+.Network{
+    margin-top: 72px;
+    text-align: center;
+}
+.Network h2{
+    color: #241400;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 196.19%;
+    text-align: center;
+}
+.Network a{
+    margin: 0 6px;
+}
+@media(min-width:0) and (max-width:750.9px) {
+    .Network img{
+        width: 35px;
+    }
+}

@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat-Bold.ttf') format('woff2');
+}
+
+.App {
+  margin: 36px 165px;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+.MuiSvgIcon-root {
+  color: #E16A00;
+  font-size: 30px;
+}
+.ant-drawer-right.ant-drawer-open .ant-drawer-content-wrapper {
+  width: auto !important;
+}
+.ant-drawer-content{
+  background: rgba(36, 20, 0, 0.9) !important;
+}
+.ant-drawer-header{
+  background: rgba(36, 20, 0, 0.9) !important;
+
+}
+.anticon svg{
+  color: white;
+}
+@media(min-width:0) and (max-width:750.9px) {
+  .eWjCzc,.eAyARa {
+  display: none;
+  }
+  .App {
+    margin: 36px 16px;
+  }
+  
+}
+@media(min-width:751px) and (max-width:1390.9px) {
+  .App {
+    margin: 36px 46px;
+  }
+  
+}

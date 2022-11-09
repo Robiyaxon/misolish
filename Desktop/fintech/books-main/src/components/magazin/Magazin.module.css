@@ -1,0 +1,49 @@
+.Magazin {
+    margin-top: 50px;
+}
+
+.Raqam {
+    display: flex;
+    align-items: center;
+}
+
+.Raqam h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    color: #241400;
+    font-size: 50px;
+
+    margin-right: 20px;
+}
+
+.Raqam p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #241400;
+    line-height: 196.19%;
+}
+
+.Wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Title{
+    text-align: center;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 25px;
+line-height: 196.19%;
+}
+@media(min-width:0) and (max-width:750.9px) {
+    .Raqam {
+        width: 100%;
+    }
+.Wrapper{
+    justify-content: center;
+}
+}
