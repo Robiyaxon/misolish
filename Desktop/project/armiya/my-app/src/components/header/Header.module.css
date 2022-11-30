@@ -1,0 +1,54 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 50px ;
+    margin-top: 0.5rem;
+    
+}
+.Header img{
+    width: 200px;
+}
+.Block{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Block h2{
+    width: 100%;
+    margin-bottom: 4px;
+}
+.Card{
+    width: 120px;
+}
+.Card p{
+    width: 100px;
+    text-align: center;
+    color: #828282;
+    font-size: 10px;
+}
+.Card h3{
+    font-size: 18px ;
+    color: #828282;
+    text-align: center;
+}
+.Block h2{
+    font-size: 16px;
+    text-align: center;
+}
+.Block_1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Block_1 h2{
+    width: 100%;
+}
+select{
+    border-radius: 10px;
+    width: 70px;
+    cursor: pointer;
+    padding: 5px 0;
+    font-size: 14px;
+}

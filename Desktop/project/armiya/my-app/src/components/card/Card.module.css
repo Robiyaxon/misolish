@@ -1,0 +1,62 @@
+:root {
+    --primary-color: #00cec9;
+    --bg-color: #dfe6e9;
+    --text-color: white;
+}
+
+.Block {
+    display: flex;
+    padding:20px 70px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container {
+    background: white;
+    cursor: pointer;
+    border-radius: 15px;
+    position: relative;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 12%);
+    height: 150px;
+    margin: 1rem;
+    color: var(--primary-color);
+}
+
+.container::after {
+    content: '';
+    background: var(--primary-color);
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    clip-path: circle(10% at 0% 0%);
+    transition: all .3s ease-in;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    transition: all .3s ease-in;
+}
+.content img{
+    width: 70px;
+    height: 70px;
+}
+.container:hover::after {
+    clip-path: circle(100%);
+}
+.content h2{
+    text-align: center;
+    width: 100%;
+}
+.container:hover .content {
+    color: var(--text-color);
+}

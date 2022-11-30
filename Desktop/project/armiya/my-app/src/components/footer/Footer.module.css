@@ -1,0 +1,35 @@
+.Footer {
+    background-image: url("../../img/footer.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5rem 150px;
+}
+
+.Footer h1 {
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    text-transform: uppercase;
+    color: white;
+}
+
+.Footer p {
+    margin-top: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.Footer h2 {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    margin-top: 4rem;
+}
+
+.Footer h6 {
+    margin-top: 2rem;
+    color: white;
+    font-size: 17px;
+}

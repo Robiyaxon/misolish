@@ -1,0 +1,56 @@
+.SchoilMedia {
+    background-image: url("../../img/bacground\ home.png");
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 4rem 0;
+}
+
+.SchoilMedia h2 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.SchoilMedia p {
+    color: #ffffff;
+    font-family: "Montserrat-Local";
+    font-size: 18px;
+    width: 1000px;
+}
+
+.Block2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialBunia {
+    display: block;
+    border-radius: 9px;
+    border: 1px solid #ffffff;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 60px;
+    margin: 1.5rem 10px;
+}
+
+.socialBunia a {
+    color: #ffffff !important;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.socialBunia a img{
+    margin-right: 5px;
+}

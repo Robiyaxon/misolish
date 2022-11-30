@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    font-size: 22px !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    font-size: 23px !important;
+}
