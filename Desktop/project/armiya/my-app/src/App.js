@@ -6,7 +6,9 @@ import Home from './components/home/Home';
 import Menu from './components/menu/Menu';
 import News from './components/news/News';
 import SochialMedia from './components/socialmedia/SochialMedia';
+
 function App() {
+
   return (
     <div className="App">
       <Heder />

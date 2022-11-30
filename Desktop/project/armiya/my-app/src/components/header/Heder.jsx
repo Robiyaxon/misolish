@@ -18,7 +18,7 @@ const Heder = () => {
             <div className={style.Block}>
                 <div className={style.Block_1}>
                     <h2>{t("navbar1")}</h2>
-                    
+
                     <div className={style.Card}>
                         <h3>1242</h3>
                         <p>   my.gov.uz общие вопросы (24/7)</p>
@@ -28,7 +28,7 @@ const Heder = () => {
                         <p>   предложения и жалобы</p>
                     </div>
                 </div>
-                <div className="select">
+                <div className={style.select}>
                     <select name="lang" value={lang} onChange={handleChange}>
                         <option value="uz">UZ</option>
                         <option value="ru">RU</option>
