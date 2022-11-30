@@ -18,6 +18,7 @@ const Heder = () => {
             <div className={style.Block}>
                 <div className={style.Block_1}>
                     <h2>{t("navbar1")}</h2>
+                    
                     <div className={style.Card}>
                         <h3>1242</h3>
                         <p>   my.gov.uz общие вопросы (24/7)</p>

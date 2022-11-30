@@ -40,12 +40,11 @@
 .Block_1{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    align-items: center;
 }
-.Block_1 h2{
-    width: 100%;
-}
-select{
+
+.select select{
     border-radius: 10px;
     width: 70px;
     cursor: pointer;

@@ -9,6 +9,8 @@
     padding:20px 70px;
     justify-content: space-between;
     flex-wrap: wrap;
+    /* position: absolute; */
+    margin-top: -11rem;
 }
 
 .container {
