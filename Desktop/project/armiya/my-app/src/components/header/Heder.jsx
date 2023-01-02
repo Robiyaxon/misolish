@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import style from "./Header.module.css"
-import logo from "../../img/logo1.jpg"
+import logo from "../../img/logo2.jpg"
 import i18n from '../../i18next';
 import { useTranslation } from 'react-i18next';
 const Heder = () => {
@@ -14,7 +14,14 @@ const Heder = () => {
     };
     return (
         <div className={style.Header}>
-            <img src={logo} alt="" />
+            <div className={style.blockTitle}>
+                <img src={logo} alt="" />
+                <h2>Shimoliy g'arbiy harbiy okrugu
+                    <br />
+                    Yagona malumotlar bazasi
+                </h2>
+            </div>
+
             <div className={style.Block}>
                 <div className={style.Block_1}>
                     <h2>{t("navbar1")}</h2>
@@ -35,6 +42,16 @@ const Heder = () => {
                     </select>
                 </div>
             </div>
+            <section>
+                <div>
+                    <section className={style.news_message}>
+                       <p>O'zbekistonda 2023-yil "Insonga e’tibor va sifatli ta’lim"</p>
+                    </section>
+                    <section className={style.news_message}>
+                       <p>O'zbekistonda 2023-yil "Insonga e’tibor va sifatli ta’lim"</p>
+                    </section>
+                </div>
+            </section>
         </div>
     )
 }

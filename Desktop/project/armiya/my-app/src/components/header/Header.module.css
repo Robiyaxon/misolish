@@ -1,53 +1,167 @@
-.Header{
+.Header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:0 50px ;
-    margin-top: 0.5rem;
-    
+    flex-wrap: wrap;
+    padding: 0 50px;
+    margin-top: 2rem;
+
 }
-.Header img{
-    width: 200px;
+section {
+    background-color: teal;
+    width: 100%;
+    margin: 0.3rem 0;
+    color: white;
+    font-family: helvetica;
+    text-transform: uppercase;
+    overflow-x: hidden;
+  }
+  section div {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    width: 100%;
+  }
+  section div .news_message{
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    animation: slide-left 15s linear infinite;
+  }
+  section div .news_message p {
+    font-size: 2.5em;
+    font-weight: 100;
+    padding-left: 0.5em;
+  }
+  @keyframes slide-left {
+    from {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+  }
+.Header img {
+    width: 100px
 }
-.Block{
+
+.Block {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.Block h2{
+
+.Block_1 h2 {
     width: 100%;
     margin-bottom: 4px;
 }
-.Card{
+
+.Card {
     width: 120px;
 }
-.Card p{
+
+.Card p {
     width: 100px;
     text-align: center;
     color: #828282;
     font-size: 10px;
 }
-.Card h3{
-    font-size: 18px ;
+
+.Card h3 {
+    font-size: 18px;
     color: #828282;
     text-align: center;
 }
-.Block h2{
+
+.blockTitle {
+    width: 40%;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.blockTitle h2 {
+    margin-left: 1rem;
+
+    font-family: "Montserrat-Local";
+}
+
+.Block h2 {
     font-size: 16px;
     text-align: center;
 }
-.Block_1{
+
+.Block_1 {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
     align-items: center;
 }
 
-.select select{
+.select select {
     border-radius: 10px;
     width: 70px;
     cursor: pointer;
     padding: 5px 0;
     font-size: 14px;
+}
+@media(min-width:0) and (max-width:750.9px){
+  .Header {
+    padding: 0 15px;
+    margin-top: 1rem;
+}
+.Header img {
+  width: 80px;
+  margin-bottom: 0.5rem;
+}
+section {
+  margin: 0;
+}
+section div .news_message p {
+  font-size: 2rem;
+}
+.blockTitle {
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.blockTitle h2 {
+  margin-left: 1rem;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Montserrat-Local";
+}
+.Card {
+  display: none;
+}
+.Block_1 h2 {
+ display: none;
+}
+.select select {
+ display: none;
+}
+}
+@media(min-width:751px) and (max-width:1050.9px){
+  .Header {
+    padding: 0 15px;
+    margin-top: 1rem;
+} 
+.blockTitle {
+  width: 70%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.Card {
+  display: none;
+}
+.Block_1 h2 {
+  display: none;
+ }
+ .blockTitle h2 {
+  margin-left: 1rem;
+  font-size: 20px;
+}
 }

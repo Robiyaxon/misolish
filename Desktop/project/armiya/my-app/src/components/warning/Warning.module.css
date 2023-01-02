@@ -1,0 +1,76 @@
+.Warning{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:20px 70px;
+}
+.Block{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.Card{
+    margin-top: 1.5rem;
+    width: 24%;
+    box-sizing: border-box;
+    display: grid;
+    justify-content: center;
+    padding: 4rem 0.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Block h1{
+    font-family: "Montserrat-Local";
+
+}
+.Card h1{
+    font-family: "Montserrat-Local";
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+.Card a{
+    text-align: center;
+    color: blue;
+    font-size: 19px;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+.Link{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 100%;
+}
+.Link img{
+    width: 40px;
+    margin-left: 0.5rem;
+    height: 40px;
+}
+@media(min-width:0) and (max-width:850.9px){
+    .Card{
+        width:95%;
+        padding: 3rem 0.5rem;
+    }
+    .Warning{
+        padding:20px 15px;
+    }
+    .Link img{
+        width: 30px;
+        margin-left: 4px;
+        height: 30px;
+    }
+    .Card h1{
+        font-size: 18px;
+    }
+    .Card a{
+        font-size: 17px;
+    }
+    .Block h1{
+        font-size: 24ppx;
+    }
+}
+@media(min-width:851px) and (max-width:1200.9px){
+    .Warning{
+        padding:20px 15px;
+    } 
+}

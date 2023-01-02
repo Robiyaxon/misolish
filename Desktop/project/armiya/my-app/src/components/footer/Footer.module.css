@@ -33,3 +33,9 @@
     color: white;
     font-size: 17px;
 }
+@media(min-width:0) and (max-width:750.5px){
+    .Footer {
+        padding: 5rem 15px 15px 15px ;
+    }
+     
+}
